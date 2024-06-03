@@ -1,0 +1,128 @@
+@charset "UFT-8";
+@font-face{
+    font-family:'idroid' ;
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: rgba(0, 195, 255, 0.582);
+    font: normal 15pt arial;
+    text-align: center;
+
+}
+section p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+header {
+   min-height: 150px;
+   padding-top: 30px;
+    background-image: linear-gradient(to bottom,#62DD9A,#32B46C,#299358,#1A5C38);
+ 
+    color: white;
+    text-align: center;
+    font: normal 20pt arial;
+   
+}
+header>p {
+    font: normal 10pt arial;
+
+}
+ 
+nav{
+    font-size: 16px;
+    color: white;
+    background-color: #1A5C38;
+    text-align: left;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.445);
+   
+    
+    
+}
+nav>a{
+    color: #62DD9A;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+nav>  a:hover{
+color: #1A5C38;
+background-color: #62DD9A;
+padding: 1px;
+padding-top: 3px;
+}
+section{
+    
+        background: white;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius:10px ;
+        min-width: 320px;
+        max-width:823px;
+        margin: auto;
+        box-shadow: 5px 5px 10px black;
+        font: normal 10pt arial;
+        text-align: left;
+        padding: 10px;
+       
+}
+
+section>h1,h2{
+    font-family: 'idroid', Helvetica, sans-serif;
+    text-align: left;
+    color: #1A5C38;
+        background-image: linear-gradient(to right,#62DD9A,white );
+}
+section>h1{
+    font-family: 'idroid', Helvetica, sans-serif;
+}
+div.video{
+    background-color: #62DD9A;
+    margin: 0px -10px 30px -10px;ç
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside{
+    background-color: #62DD9A;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+aside > h3{
+    background-color: #1A5C38;
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+    font-size: 0.8em;
+}
